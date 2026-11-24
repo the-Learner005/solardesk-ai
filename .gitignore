@@ -3,7 +3,10 @@ node_modules/
 
 # Environment variables and secrets
 .env
-ild output
+.env.*
+!.env.example
+
+# Build output
 dist/
 build/
 coverage/
